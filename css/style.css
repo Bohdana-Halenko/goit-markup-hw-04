@@ -416,3 +416,8 @@ button {
   background-position: center;
   background-size: cover;
 }
+
+.email-icon {
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
