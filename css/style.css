@@ -99,7 +99,7 @@ img {
 
 /*HERO*/
 .post {
-  background-color: var(--secondary-background-color);
+  /*background-color: var(--secondary-background-color);*/
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -138,10 +138,40 @@ img {
   display: flex;
   align-items: center;
 }
+.benefits-block::before{
+  display: block;
+  content:"";
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  border-radius: 4px;
+  background-size: contain;
+  background: #F5F4FA;
+}
+.benefits-block.icon-antenna::before{
+  background-image: url("../images/antenna\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.benefits-block.icon-clock::before{
+  background-image: url("../images/clock\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.benefits-block.icon-diagram::before{
+  background-image: url("../images/diagram\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.benefits-block.icon-astronaut::before{
+  background-image: url("../images/astronaut\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .benefits-name {
   color: var(--title-text-color);
   margin-bottom: 10px;
-  margin-top: 0;
+  margin-top: 30px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -366,4 +396,23 @@ button {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+/* ICONS HEADER*/
+
+
+/*OVERLAY*/
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+  rgba(47, 48, 58, 0.4), 
+  rgba(47, 48, 58, 0.4)
+  ),
+  url(../images/overlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
