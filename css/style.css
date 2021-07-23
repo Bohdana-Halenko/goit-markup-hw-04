@@ -399,7 +399,14 @@ button {
 }
 
 /* ICONS HEADER*/
-
+.email-icon {
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
+.email-icon:hover,
+.email-icon:focus{
+  color: var(--accent-color);
+}
 
 /*OVERLAY*/
 .overlay {
@@ -417,7 +424,3 @@ button {
   background-size: cover;
 }
 
-.email-icon {
-  margin-right: 10px;
-  fill: var(--title-text-color);
-}
