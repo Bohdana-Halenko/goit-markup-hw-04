@@ -403,8 +403,8 @@ button {
   margin-right: 10px;
   fill: var(--title-text-color);
 }
-.email-icon:hover,
-.email-icon:focus{
+.email-icon .link:hover,
+.email-icon .link:focus{
   color: var(--accent-color);
 }
 
