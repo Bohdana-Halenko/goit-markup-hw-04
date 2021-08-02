@@ -283,10 +283,6 @@ img {
 .contacts-list .link:hover {
   color: var(--accent-color);
 }
-.contacts-item:focus,
-.contacts-item:hover{
-  color: var(--accent-color);
-}
 .filter-button:focus,
 .filter-button:hover {
   color: var(--secondary-text-color);
@@ -407,11 +403,18 @@ button {
   margin-right: 10px;
   fill: var(--title-text-color);
 }
-.email-icon .link:hover,
-.email-icon .link:focus{
+.email-icon:hover,
+.email-icon:focus{
   color: var(--accent-color);
 }
-
+.icon-smartphone {
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
+.icon-smartphone .link:hover,
+.icon-smartphone .link:focus{
+  color: var(--accent-color);
+}
 /*OVERLAY*/
 .overlay {
   max-width: 1600px;
