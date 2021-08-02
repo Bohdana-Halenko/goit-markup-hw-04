@@ -283,6 +283,10 @@ img {
 .contacts-list .link:hover {
   color: var(--accent-color);
 }
+.contacts-item:focus,
+.contacts-item:hover{
+  color: var(--accent-color);
+}
 .filter-button:focus,
 .filter-button:hover {
   color: var(--secondary-text-color);
