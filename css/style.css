@@ -403,18 +403,17 @@ button {
   margin-right: 10px;
   fill: var(--title-text-color);
 }
-.email-icon:hover,
-.email-icon:focus{
+.email-icon .link:hover,
+.email-icon .link:focus,
+.icon-smartphone .link:hover,
+.icon-smartphone .link:focus {
   color: var(--accent-color);
 }
 .icon-smartphone {
   margin-right: 10px;
   fill: var(--title-text-color);
 }
-.icon-smartphone .link:hover,
-.icon-smartphone .link:focus{
-  color: var(--accent-color);
-}
+
 /*OVERLAY*/
 .overlay {
   max-width: 1600px;
