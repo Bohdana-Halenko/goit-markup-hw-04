@@ -403,8 +403,10 @@ button {
   margin-right: 10px;
   fill: var(--title-text-color);
 }
-.contacts-list:hover,
-.contacts-list:focus,
+.contacts-item .link:hover,
+.contacts-item .link:focus{
+  fill: var(--accent-color);
+}
 .email-icon .link:hover,
 .email-icon .link:focus,
 .icon-smartphone .link:hover,
