@@ -248,6 +248,7 @@ img {
   margin-right: 30px;
 }
 
+
 /*CLIENTS*/
 .clients{
   color: var(--title-text-color);
@@ -274,15 +275,12 @@ img {
 }
 
 .clients-link:hover,
-.clients-link:focus{
+.clients-link:focus,
+.clients-icon:focus,
+.clients-icon:hover{
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-
-
-
-
-
 
 /*FOOTER*/
 .page-footer {
