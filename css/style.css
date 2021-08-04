@@ -275,9 +275,7 @@ img {
 }
 
 .clients-link:hover,
-.clients-link:focus,
-.clients-icon:focus,
-.clients-icon:hover{
+.clients-link:focus{
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
