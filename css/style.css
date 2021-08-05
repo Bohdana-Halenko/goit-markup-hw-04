@@ -266,6 +266,7 @@ img {
 .social-list-icon{
   width: 20px;
   height: 20px;
+  background-size: contain;
 }
 .social-list-item:not(:first-child){
   margin-left: 10px;
