@@ -10,6 +10,7 @@
   --secondary-address-color: rgba(255, 255, 255, 0.6);
   --logo-color: #000000;
   --background-team-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -247,7 +248,32 @@ img {
 .img-team:not(:last-child) {
   margin-right: 30px;
 }
-
+.social-list{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.social-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--icon-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-list-icon{
+  width: 20px;
+  height: 20px;
+}
+.social-list-link:hover,
+.social-list-link:focus{
+  fill: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+.social-list-item:not(:first-child){
+  margin-left: 10px;
+}
 
 
 /*CLIENTS*/
