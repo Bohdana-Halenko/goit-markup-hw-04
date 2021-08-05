@@ -247,36 +247,7 @@ img {
 .img-team:not(:last-child) {
   margin-right: 30px;
 }
-.social-list .item{
-  margin: 0;
-}
-.social-list{
-  display: flex;
-  justify-content: space-between;
-}
-.social-list-link{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-.social-list-icon{
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-}
-.social-list-item:not(:first-child){
-  margin-left: 10px;
-}
-.social-list-item:hover,
-.social-list-item:focus{
-  fill: var(--primary-background-color);
-  background-color: var(--accent-color)
 
-}
 
 /*CLIENTS*/
 .clients{
