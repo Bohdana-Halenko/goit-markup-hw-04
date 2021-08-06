@@ -249,9 +249,9 @@ img {
   margin-right: 30px;
 }
 .social-list{
-  margin: 0;
+  margin-top: 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .social-list-link{
   display: flex;
@@ -341,10 +341,11 @@ img {
 /* JUST FOCUS AND HOVER */
 .site-nav .link:focus,
 .site-nav .link:hover,
-.contacts-list .link:focus,
-.contacts-list .link:hover {
+.contacts-item .link:focus,
+.contacts-item .link:hover {
   color: var(--accent-color);
 }
+
 .filter-button:focus,
 .filter-button:hover {
   color: var(--secondary-text-color);
