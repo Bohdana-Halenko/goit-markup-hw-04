@@ -470,7 +470,11 @@ button {
 /* ICONS HEADER*/
 .email-icon {
   margin-right: 10px;
-  fill: var(--icon-color);
+  fill: var(--primary-text-color);
+}
+.icon-smartphone {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
 }
 .contacts-item .link:hover,
 .contacts-item .link:focus{
@@ -478,14 +482,11 @@ button {
 }
 .email-icon .link:hover,
 .email-icon .link:focus,
-.icon-smartphone .link:hover,
-.icon-smartphone .link:focus {
+.icon-smartphone:hover .link,
+.icon-smartphone:focus .link {
   color: var(--accent-color);
 }
-.icon-smartphone {
-  margin-right: 10px;
-  fill: var(--title-text-color);
-}
+
 
 /*OVERLAY*/
 .overlay {
