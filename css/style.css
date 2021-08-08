@@ -101,13 +101,13 @@ img {
   display: flex;
   align-items: center;
 }
-/*.contact-item .contact-link:hover {
+.contact-item .contact-link:hover {
   color: var(--accent-color);
-}*/
+}
 
 /*HERO*/
 .post {
-  /*background-color: var(--secondary-background-color);*/
+  background-color: var(--secondary-background-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -339,6 +339,34 @@ img {
   text-decoration: none;
 }
 
+.clients-link .link:focus,
+.clients-link .link:hover {
+  color: var(--accent-color);
+}
+/* JUST FOCUS AND HOVER */
+.site-nav .link:focus,
+.site-nav .link:hover,
+.contacts-item .link:focus,
+.contacts-item .link:hover {
+  color: var(--accent-color);
+}
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--secondary-text-color);
+}
+.post-button:hover,
+.post-button:focus {
+  background-color: var(--primary--button-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.filter-button:focus,
+.filter-button:hover {
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
 .clients-link .link:focus,
 .clients-link .link:hover {
   color: var(--accent-color);
