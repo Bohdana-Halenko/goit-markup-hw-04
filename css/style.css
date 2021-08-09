@@ -40,7 +40,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-.link {
+a {
   color: var(--title-text-color);
   text-decoration: none;
   cursor: pointer;
@@ -66,7 +66,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link.current {
+.site-nav .site-nav-link.current {
   color: var(--accent-color);
 }
 .container-header {
@@ -80,31 +80,34 @@ img {
   color: var(--title-text-color);
   display: flex;
 }
-.navigation .nav-item:not(:last-child) {
+.navigation .site-nav-item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
-.contacts-list {
+.contacts {
   margin-left: auto;
   display: flex;
   align-items: center;
 }
-.contacts-list .link {
+.contacts .contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
-.contacts-item .link {
+.contacts-item .contact-link {
   display: flex;
   align-items: center;
 }
-.contact-item .contact-link:hover {
-  color: var(--accent-color);
-}
 
+.contacts .contact-link:hover{
+  color: var(--accent-color)
+}
+.contact-link:hover .contact-icon{
+  fill: var(--accent-color)
+}
 /*HERO*/
 .post {
   background-color: var(--secondary-background-color);
@@ -382,10 +385,8 @@ img {
   background-color: var(--accent-color);
 }
 /* JUST FOCUS AND HOVER */
-.site-nav .link:focus,
-.site-nav .link:hover,
-.contacts-item .link:focus,
-.contacts-item .link:hover {
+.site-nav .site-nav-link:focus,
+.site-nav .site-nav-link:hover {
   color: var(--accent-color);
 }
 
@@ -515,24 +516,11 @@ button {
 }
 
 /* ICONS HEADER*/
-.email-icon {
+.contact-icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.icon-smartphone {
-  margin-right: 10px;
-  fill: var(--primary-text-color);
-}
-.contacts-item .link:hover,
-.contacts-item .link:focus {
-  fill: var(--accent-color);
-}
-/*.email-icon .link:hover,
-.email-icon .link:focus,
-.icon-smartphone:hover .link,
-.icon-smartphone:focus .link {
-  color: var(--accent-color);
-}*/
+
 
 /*OVERLAY*/
 .overlay {
